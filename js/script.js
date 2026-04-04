@@ -29,3 +29,10 @@ function escribir() {
 }
 
 document.addEventListener("DOMContentLoaded", escribir);
+//menu
+const menuIcon = document.getElementById("menu-icon");
+const navbar = document.querySelector(".navbar");
+
+menuIcon.onclick = () => {
+    navbar.classList.toggle("active");
+};

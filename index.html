@@ -50,87 +50,87 @@
             <div class="proyectos-box">
                 <i class="bx bx-code"></i>
                 <h3>Sistema de Gestion de Clientes</h3>
-                <p>Aplicación desarrollada en C# .NET que permite gestionar clientes mediante operaciones CRUD. Incluye alta, modificación, eliminación y validación de datos, utilizando arquitectura en capas.</p>
+                <p>Aplicación desarrollada en C# .NET con arquitectura en capas para la gestión de clientes. Incluye operaciones CRUD completas, validación de datos y organización de lógica de negocio.</p>
                 <a href="https://github.com/RocioGonzalezGauna/GestionClientes.git" target="_blank" class="btn">Código</a>
             </div>
             <div class="proyectos-box">
                 <i class="bx bx-code"></i>
                 <h3>Sistema Bancario</h3>
-                <p>Aplicación de escritorio desarrollada en C# con Windows Forms para la gestión de cuentas bancarias. Permite crear cuentas, realizar depósitos y retiros, con validación de saldo y actualización dinámica de datos en interfaz gráfica.</p>
+                <p>Aplicación de escritorio en C# con Windows Forms para la gestión de cuentas bancarias. Permite realizar depósitos, retiros y validación de saldo, aplicando lógica de negocio y actualización dinámica en la interfaz.</p>
                 <a href="https://github.com/RocioGonzalezGauna/SistemaBancario.git" target="_blank" class="btn">Código</a>
             </div>   
             <div class="proyectos-box">
                 <i class="bx bx-code"></i>
                 <h3>Talent Flow</h3>
-                <p>Sistema de gestion de empleados en C# .NET con WinForms, POO, LINQ, eventos y consultas</p>
+                <p>Sistema de gestión de empleados desarrollado en C# .NET utilizando Programación Orientada a Objetos, LINQ y eventos. Permite gestionar información y realizar consultas dinámicas.</p>
                 <a href="https://github.com/RocioGonzalezGauna/TalentFlow.git" target="_blank" class="btn">Código</a>
             </div>       
         </div>
     </section>
     <!-- skills section codigo-->
-    <section class="skills" id="skills">
-    <h2>Mis <span>Skills</span></h2>
-    <div class="skills-contenedor">
-        <div class="skills-box">
-            <i class="devicon-csharp-plain"></i>
-            <p>C#</p>
-        </div>
-        <div class="skills-box">
-            <i class="devicon-dotnetcore-plain"></i>
-            <p>.NET</p>
-        </div>
-        <div class="skills-box">
-            <i class='bx bxl-git'></i>
-            <p>Git</p>
-        </div>
-        <div class="skills-box">
-            <i class='bx bxl-github'></i>
-            <p>GitHub</p>
-        </div>
-        <div class="skills-box">
-            <i class='bx bxl-python'></i>
-            <p>Python</p>
-        </div>
-        <div class="skills-box">
-            <i class='bx bxl-javascript'></i>
-            <p>JavaScript</p>
-        </div>
-        <div class="skills-box">
-            <i class='bx bxl-html5'></i>
-            <p>HTML</p>
-        </div>
-        <div class="skills-box">
-            <i class='bx bxl-css3'></i>
-            <p>CSS</p>
-        </div>
-    </div>
-</section>
+        <section class="skills" id="skills">
+            <h2>Mis <span>Skills</span></h2>
+
+            <div class="skills-grupo">
+                <h3>Backend</h3>
+                <div class="skills-contenedor">
+                    <div class="skills-box"><i class="devicon-csharp-plain"></i><p>C#</p></div>
+                    <div class="skills-box"><i class="devicon-dotnetcore-plain"></i><p>.NET</p></div>
+                    <div class="skills-box"><i class='bx bx-cube'></i><p>POO</p></div>
+                </div>
+            </div>
+
+            <div class="skills-grupo">
+                <h3>Herramientas</h3>
+                <div class="skills-contenedor">
+                    <div class="skills-box"><i class='bx bxl-git'></i><p>Git</p></div>
+                    <div class="skills-box"><i class='bx bxl-github'></i><p>GitHub</p></div>
+                </div>
+            </div>
+
+            <div class="skills-grupo">
+                <h3>Complementario</h3>
+                <div class="skills-contenedor">
+                    <div class="skills-box"><i class='bx bxl-html5'></i><p>HTML</p></div>
+                    <div class="skills-box"><i class='bx bxl-css3'></i><p>CSS</p></div>
+                    <div class="skills-box"><i class='bx bxl-javascript'></i><p>JavaScript</p></div>
+                    <div class="skills-box"><i class='bx bxl-python'></i><p>Python</p></div>
+                </div>
+            </div>
+        </section>
+    
 <!-- contacto section codigo-->
  <section class="contacto" id="contacto">
     <h2 class="contacto-t">Contacta<span class="contacto-t2">me</span></h2>
-    <form action="#">
+    <form action="https://formspree.io/f/xojpkbak" method="POST">
         <div class="input-box">
-            <input type="text" placeholder="Nombre completo:">
-            <input type="email" name="Email" placeholder="Mail:" >
+            <input type="text" name="nombre" placeholder="Nombre completo" required>
+            <input type="email" name="email" placeholder="Email" required>
         </div>
+
         <div class="input-box">
-            <input type="number" placeholder="Telefono:">
-            <input type="text" placeholder="Asunto:" >
+            <input type="tel" name="telefono" placeholder="Teléfono">
+            <input type="text" name="asunto" placeholder="Asunto">
         </div>
-        <textarea name="message" id="" cols="10" rows="10" placeholder="Mensaje:"></textarea>
-        <input type="submit" value="Enviar mensaje" class="btn">
+
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+
+        <button type="submit" class="btn">Enviar mensaje</button>
     </form>
  </section>
  <!-- footer section codigo-->
   <footer class="footer">
     <div class="social">
-        <a href="#" class="icono-footer"><i class='bx bxl-linkedin'></i></a>
-        <a href="#" class="icono-footer"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/rocio-belen-gonzalez-gauna-0609b522b/" target="_blank">
+            <i class='bx bxl-linkedin'></i>
+        </a>
+        <a href="https://github.com/RocioGonzalezGauna" target="_blank">
+            <i class='bx bxl-github'></i>
+        </a>
     </div>
-    <p class="copyright">
-        &copy;Rocio Belen Gonzalez Gauna - Todos Los Derechos Reservados
-    </p>
-  </footer>
+
+    <p>&copy; Rocio Gonzalez Gauna - Portfolio</p>
+</footer>
   <script src="js/script.js"></script>
 </body>
 </html>
